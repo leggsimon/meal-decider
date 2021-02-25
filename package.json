@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "netlify-cli": "^3.8.6"
+    "netlify-cli": "^3.8.6",
+    "parcel-bundler": "^1.12.4"
   }
 }
