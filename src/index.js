@@ -1,6 +1,6 @@
+import recipes from './data/recipes.json'
 const outputElement = document.querySelector('output')
 const decideButton = document.getElementById('decide')
-const recipes = ['curry', 'fish', 'stew', 'pizza', 'burger'];
 
 function getRandomRecipes(numberOfResults, resultsFrom) {
 	const set = new Set();
@@ -17,7 +17,7 @@ decideButton.addEventListener('click', () => {
 	const listElement = document.createElement('ul');
 	results.map(result => {
 		const listItemElement = document.createElement('li');
-		const textElement = document.createTextNode(result)
+		const textElement = document.createTextNode(result.name)
 		listItemElement.appendChild(textElement);
 		return listItemElement
 	}).forEach(listItem => listElement.appendChild(listItem))

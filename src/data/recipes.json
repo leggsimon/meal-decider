@@ -60,8 +60,18 @@
 	  "recipeUrl": "https://www.hellofresh.de/recipes/sesamhahnchen-mit-teriyaki-stir-fry-5f7d89e88220af61bc7d7501"
 	},
 	{
-	  "name": "Hake on a colorful vegetable curry",
-	  "recipeUrl": "https://www.hellofresh.de/recipes/seehecht-auf-buntem-gemusecurry-5f77114997f39f06e91decdd"
+	  "name": "Fish on a vegetable curry",
+	  "recipeUrl": "https://www.hellofresh.de/recipes/seehecht-auf-buntem-gemusecurry-5f77114997f39f06e91decdd",
+	  "ingredients": [
+		  { "name": "Pak Choi", "quantity": {"type": "individual", "amount": 1} },
+		  { "name": "Carrot", "quantity": {"type": "individual", "amount": 1} },
+		  { "name": "Potatoes (Drillinge)", "quantity": {"type": "grams", "amount": 400} },
+		  { "name": "Vegetable Stock", "quantity": {"type": "grams", "amount": 4}, "pantry": true },
+		  { "name": "Tikka Masala Paste", "quantity": {"type": "individual", "amount": 1}, "pantry": true },
+		  { "name": "Spring Onion", "quantity": {"type": "individual", "amount": 1} },
+		  { "name": "Coconut Milk", "quantity": {"type": "millilitres", "amount": 250}, "pantry": true },
+		  { "name": "Cod", "quantity": {"type": "weight", "amount": 250} }
+	  ]
 	},
 	{
 	  "name": "Meatballs filled with mozzarella",
@@ -85,6 +95,19 @@
 	},
 	{
 	  "name": "Meatball pan with paprika vegetables",
-	  "recipeUrl": "https://www.hellofresh.de/recipes/hackballchenpfanne-mit-paprikagemuse-5f994c7698a0363d3f512b76"
+	  "recipeUrl": "https://www.hellofresh.de/recipes/hackballchenpfanne-mit-paprikagemuse-5f994c7698a0363d3f512b76",
+	  "ingredients": [
+		  { "name": "Mixed Mince", "quantity": {"type": "grams", "amount": 300} },
+		  { "name": "Breadcrumbs", "quantity": {"type": "grams", "amount": 25}, "pantry": true },
+		  { "name": "Mustard", "quantity": {"type": "grams", "amount": 10}, "pantry": true },
+		  { "name": "Bell Pepper", "quantity": {"type": "individual", "amount": 2} },
+		  { "name": "Tomato Paste", "quantity": {"type": "millilitres", "amount": 35}, "pantry": true },
+		  { "name": "Red Onion", "quantity": {"type": "individual", "amount": 1} },
+		  { "name": "Vegetable Stock", "quantity": {"type": "grams", "amount": 4}, "pantry": true },
+		  { "name": "Jasmine Rice", "quantity": {"type": "grams", "amount": 150}, "pantry": true },
+		  { "name": "Honey", "quantity": {"type": "grams", "amount": 8}, "pantry": true },
+		  { "name": "Parsley", "quantity": {"type": "weight", "amount": 10} },
+		  { "name": "spices!", "quantity": {"type": "individual", "amount": 2}}
+	  ]
 	}
   ]
