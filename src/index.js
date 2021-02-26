@@ -24,4 +24,4 @@ decideButton.addEventListener('click', () => {
 	outputElement.appendChild(listElement)
 })
 
-console.log('yo');
+console.log('vitality');
