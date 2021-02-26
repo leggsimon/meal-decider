@@ -32,7 +32,12 @@ function App() {
 				<div>
 					<button
 						onClick={() => {
-							setDecisions(getRandomRecipes(3, recipes.filter(r => r.ingredients))
+							setDecisions(
+								getRandomRecipes(
+									3,
+									recipes.filter((r) => r.ingredients),
+								),
+							);
 						}}
 					>
 						Decide!
