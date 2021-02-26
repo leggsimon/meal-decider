@@ -101,7 +101,51 @@
 	{
 		"id": 6,
 		"name": "Pork fillet with honey and rosemary sauce",
-		"recipeUrl": "https://www.hellofresh.de/recipes/schweinefilet-mit-honig-rosmarin-sosze-5f8fffdf0ecbb93535781f04"
+		"recipeUrl": "https://www.hellofresh.de/recipes/schweinefilet-mit-honig-rosmarin-sosze-5f8fffdf0ecbb93535781f04",
+		"ingredients": [
+			{
+				"name": "Potatoes (Floury)",
+				"quantity": { "type": "grams", "amount": 500 }
+			},
+			{
+				"name": "Red Onion",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{ "name": "Rosemary", "quantity": { "type": "grams", "amount": 10 } },
+			{ "name": "Pork Fillet", "quantity": { "type": "grams", "amount": 250 } },
+			{ "name": "Broccoli", "quantity": { "type": "individual", "amount": 1 } },
+			{
+				"name": "Butter",
+				"quantity": { "type": "grams", "amount": 10 },
+				"pantry": true
+			},
+			{
+				"name": "Honey",
+				"quantity": { "type": "grams", "amount": 8 },
+				"pantry": true
+			},
+			{
+				"name": "Milk",
+				"quantity": { "type": "millilitres", "amount": 100 },
+				"pantry": true
+			},
+			{
+				"name": "Chicken Stock",
+				"quantity": { "type": "grams", "amount": 4 },
+				"pantry": true
+			},
+			{
+				"name": "Balsamic Créme",
+				"quantity": { "type": "millilitres", "amount": 15 },
+				"pantry": true
+			},
+			{
+				"name": "Parmesan",
+				"quantity": { "type": "grams", "amount": 40 },
+				"pantry": true
+			}
+		]
 	},
 	{
 		"id": 7,
@@ -111,7 +155,71 @@
 	{
 		"id": 8,
 		"name": "Caribbean sweet potato and coconut stew",
-		"recipeUrl": "https://www.hellofresh.de/recipes/karibischer-suszkartoffel-kokos-eintopf-5f994c68334c8e3ebd476de0"
+		"recipeUrl": "https://www.hellofresh.de/recipes/karibischer-suszkartoffel-kokos-eintopf-5f994c68334c8e3ebd476de0",
+		"ingredients": [
+			{
+				"name": "Banana",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Parsley",
+				"quantity": { "type": "grams", "amount": 10 }
+			},
+			{
+				"name": "Chilli Pepper",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Milk",
+				"quantity": { "type": "millilitres", "amount": 100 },
+				"pantry": true
+			},
+			{
+				"name": "Black Beans",
+				"quantity": { "type": "grams", "amount": 400 }
+			},
+			{
+				"name": "Onion",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{
+				"name": "Garlic Clove",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{
+				"name": "Sweet Potato",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Tomato",
+				"quantity": { "type": "individual", "amount": 2 }
+			},
+			{
+				"name": "Vegetable Stock",
+				"quantity": { "type": "grams", "amount": 6 },
+				"pantry": true
+			},
+			{
+				"name": "Red Pointed Pepper",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Coconut Milk",
+				"quantity": { "type": "millilitres", "amount": 150 }
+			},
+			{
+				"name": "Plain Flour",
+				"quantity": { "type": "grams", "amount": 75 },
+				"pantry": true
+			},
+			{
+				"name": "Baking Powder",
+				"quantity": { "type": "grams", "amount": 2 },
+				"pantry": true
+			}
+		]
 	},
 	{
 		"id": 9,
@@ -213,7 +321,66 @@
 	{
 		"id": 12,
 		"name": "Sweet and sour chicken pan",
-		"recipeUrl": "https://www.hellofresh.de/recipes/hahnchenpfanne-suszsauer-5f7c556bf51e756b4d12865b"
+		"recipeUrl": "https://www.hellofresh.de/recipes/hahnchenpfanne-suszsauer-5f7c556bf51e756b4d12865b",
+		"ingredients": [
+			{
+				"name": "Chicken Breast",
+				"quantity": { "type": "grams", "amount": 250 }
+			},
+			{
+				"name": "Jasmine Rice",
+				"quantity": { "type": "grams", "amount": 150 },
+				"pantry": true
+			},
+			{
+				"name": "Spring Onion",
+				"quantity": { "type": "individual", "amount": 2 }
+			},
+			{
+				"name": "Onion",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{
+				"name": "Sesame Seeds",
+				"quantity": { "type": "grams", "amount": 10 },
+				"pantry": true
+			},
+			{
+				"name": "Tomato Ketchup",
+				"quantity": { "type": "millilitres", "amount": 35 },
+				"pantry": true
+			},
+			{
+				"name": "Bell Pepper",
+				"quantity": { "type": "individual", "amount": 2 }
+			},
+			{
+				"name": "Soy Sauce",
+				"quantity": { "type": "millilitres", "amount": 25 },
+				"pantry": true
+			},
+			{
+				"name": "Red Wine Vinegar",
+				"quantity": { "type": "millilitres", "amount": 12 },
+				"pantry": true
+			},
+			{
+				"name": "Corn Starch",
+				"quantity": { "type": "grams", "amount": 8 },
+				"pantry": true
+			},
+			{
+				"name": "Apricot Chutney",
+				"quantity": { "type": "grams", "amount": 25 },
+				"pantry": true
+			},
+			{
+				"name": "Vegetable Stock",
+				"quantity": { "type": "grams", "amount": 4 },
+				"pantry": true
+			}
+		]
 	},
 	{
 		"id": 13,
@@ -331,7 +498,7 @@
 	},
 	{
 		"id": 18,
-		"name": "Hake in coconut panko with curry rice",
+		"name": "Fish in coconut panko with curry rice",
 		"recipeUrl": "https://www.hellofresh.de/recipes/seehecht-in-kokos-panko-mit-curryreis-5f8045d06781da426e0c72f9",
 		"ingredients": [
 			{ "name": "Cod", "quantity": { "type": "grams", "amount": 250 } },
