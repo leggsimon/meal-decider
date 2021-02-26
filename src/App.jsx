@@ -30,7 +30,7 @@ function App() {
 			<output>
 				<ul>
 					{decisions.map((decision) => {
-						return <li>{decision.name}</li>;
+						return <li key={decision.id}>{decision.name}</li>;
 					})}
 				</ul>
 			</output>
