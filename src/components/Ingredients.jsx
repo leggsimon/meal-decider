@@ -5,7 +5,16 @@ function List({ items }) {
 	return (
 		<ul>
 			{items.map((item) => {
-				return <li key={item.id}>{item.name}</li>;
+				const { type, amount } = item.quantity;
+				let content = item.name;
+				if (type === 'grams') {
+					content = amount + 'g ' + content;
+				} else if (type === 'individual') {
+					content = amount + ' x ' + content;
+				} else if (type === 'millilitres') {
+					content = amount + 'ml ' + content;
+				}
+				return <li key={item.id}>{content}</li>;
 			})}
 		</ul>
 	);
