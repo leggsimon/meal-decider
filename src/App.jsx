@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import recipes from './data/recipes.json';
+import Ingredients from './components/Ingredients';
 
 function getRandomRecipes(numberOfResults, resultsFrom) {
 	const set = new Set();
@@ -18,7 +19,6 @@ function App() {
 	return (
 		<div className="App">
 			<h1>Meal Decider</h1>
-
 			<button
 				onClick={() => {
 					setDecisions(getRandomRecipes(3, recipes));
@@ -34,10 +34,11 @@ function App() {
 					})}
 				</ul>
 			</output>
-			<h2>Ingredients</h2>
-			<h3>Shopping List</h3>
-
-			<h3>Check if you have</h3>
+			<Ingredients
+				ingredients={decisions
+					.map((decision) => decision.ingredients || [])
+					.flat()}
+			/>
 		</div>
 	);
 }
