@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "vite src",
+    "build": "vite build src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "netlify-cli": "^3.8.6",
-    "parcel-bundler": "^1.12.4"
+    "vite": "^2.0.3"
   }
 }
