@@ -15,30 +15,120 @@ function getRandomRecipes(numberOfResults, resultsFrom) {
 
 function App() {
 	const [decisions, setDecisions] = useState([]);
+	const [createIngredients, setCreateIngredients] = useState(false);
+	const [newIngredients, setNewIngredients] = useState([]);
 
 	return (
 		<div className="App">
 			<h1>Meal Decider</h1>
 			<button
 				onClick={() => {
-					setDecisions(getRandomRecipes(3, recipes));
+					setCreateIngredients((create) => !create);
 				}}
 			>
-				Decide!
+				Create!
 			</button>
-			<h2>Decisions</h2>
-			<output>
-				<ul>
-					{decisions.map((decision) => {
-						return <li key={decision.id}>{decision.name}</li>;
-					})}
-				</ul>
-			</output>
-			<Ingredients
-				ingredients={decisions
-					.map((decision) => decision.ingredients || [])
-					.flat()}
-			/>
+			{!createIngredients && (
+				<div>
+					<button
+						onClick={() => {
+							setDecisions(getRandomRecipes(3, recipes));
+						}}
+					>
+						Decide!
+					</button>
+					<h2>Decisions</h2>
+					<output>
+						<ul>
+							{decisions.map((decision) => {
+								return <li key={decision.id}>{decision.name}</li>;
+							})}
+						</ul>
+					</output>
+					<Ingredients
+						ingredients={decisions
+							.map((decision) => decision.ingredients || [])
+							.flat()}
+					/>
+				</div>
+			)}
+			{createIngredients && (
+				<div>
+					<form
+						onSubmit={(event) => {
+							event.preventDefault();
+							const form = event.target;
+							const formData = new FormData(form);
+							const data = {};
+							for (const [name, value] of formData) {
+								data[name] = value;
+							}
+							setNewIngredients((curr) => {
+								return [
+									...curr,
+									{
+										name: data.name,
+										quantity: {
+											type: data.quantity,
+											amount: parseInt(data.amount),
+										},
+										...(data.pantry === 'on' ? { pantry: true } : {}),
+									},
+								];
+							});
+							document.querySelector('[name="name"]').value = '';
+							document.querySelector('[name="name"]').focus();
+						}}
+					>
+						<label>
+							Name
+							<input type="text" name="name" id="" />
+						</label>
+						<label>
+							Quantity Type
+							<select name="quantity">
+								<option value="individual">Individual</option>
+								<option value="grams">Grams</option>
+								<option value="millilitres">millilitres</option>
+							</select>
+						</label>
+						<label>
+							Amount
+							<input type="number" name="amount" id="" />
+						</label>
+						<label>
+							Pantry Item?
+							<input type="checkbox" name="pantry" id="" />
+						</label>
+						<input type="submit" value="Add" />
+					</form>
+					<pre
+						onClick={() => {
+							copy(JSON.stringify(newIngredients, null, 2));
+						}}
+					>
+						{JSON.stringify(newIngredients, null, 2)}
+					</pre>
+					<button
+						onClick={() => {
+							navigator.clipboard.writeText(
+								`,"ingredients": ${JSON.stringify(newIngredients)}`,
+							);
+						}}
+					>
+						Copy
+					</button>
+					<button
+						onClick={() => {
+							if (window.confirm('Clear?')) {
+								setNewIngredients([]);
+							}
+						}}
+					>
+						Clear
+					</button>
+				</div>
+			)}
 		</div>
 	);
 }

@@ -6,8 +6,19 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
-code {
+*/
+pre {
+	display: block;
+	margin: 20px;
+	padding: 20px;
+	background-color: lightgray;
+	border: 1px solid black;
+	border-radius: 20px;
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
-} */
+	font-size: 0.6em;
+}
+
+label {
+	display: block;
+}
