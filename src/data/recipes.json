@@ -1,13 +1,44 @@
 [
 	{
-		"id": 0,
-		"name": "Kiwi halloumi burger with yogurt aioli",
-		"recipeUrl": "https://www.hellofresh.de/recipes/kiwi-halloumi-burger-mit-joghurt-aioli-5f8045e7f62367537e0082d2"
-	},
-	{
 		"id": 1,
 		"name": "Burger with pear and onion chutney",
-		"recipeUrl": "https://www.hellofresh.de/recipes/burger-mit-birnen-zwiebel-chutney-5f6d9584a5f8903748746b00"
+		"recipeUrl": "https://www.hellofresh.de/recipes/burger-mit-birnen-zwiebel-chutney-5f6d9584a5f8903748746b00",
+		"ingredients": [
+			{ "name": "Blue Cheese", "quantity": { "type": "grams", "amount": 100 } },
+			{
+				"name": "Onion",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{ "name": "Pear", "quantity": { "type": "individual", "amount": 1 } },
+			{
+				"name": "Brioche Bun",
+				"quantity": { "type": "individual", "amount": 2 }
+			},
+			{ "name": "Mixed Mince", "quantity": { "type": "grams", "amount": 200 } },
+			{
+				"name": "Potatoes (Drillinge)",
+				"quantity": { "type": "grams", "amount": 500 }
+			},
+			{
+				"name": "Romaine Lettuce",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Mayonaise (Optional)",
+				"quantity": { "type": "millilitres", "amount": 35 }
+			},
+			{
+				"name": "Balsamic Créme",
+				"quantity": { "type": "millilitres", "amount": 25 },
+				"pantry": true
+			},
+			{
+				"name": "Garlic Clve",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			}
+		]
 	},
 	{
 		"id": 2,
@@ -27,7 +58,45 @@
 	{
 		"id": 5,
 		"name": "Boulette with apple and bacon sauce",
-		"recipeUrl": "https://www.hellofresh.de/recipes/boulette-mit-apfel-speck-sosze-5fabff509af9e30821771e91"
+		"recipeUrl": "https://www.hellofresh.de/recipes/boulette-mit-apfel-speck-sosze-5fabff509af9e30821771e91",
+		"ingredients": [
+			{
+				"name": "Apple",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{
+				"name": "Onion",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{ "name": "Pancetta", "quantity": { "type": "individual", "amount": 1 } },
+			{
+				"name": "Cooking Cream",
+				"quantity": { "type": "millilitres", "amount": 200 }
+			},
+			{ "name": "Parsley", "quantity": { "type": "grams", "amount": 10 } },
+			{
+				"name": "Spices! (nutmeg?)",
+				"quantity": { "type": "grams", "amount": 5 },
+				"pantry": true
+			},
+			{ "name": "Mixed Mince", "quantity": { "type": "grams", "amount": 300 } },
+			{
+				"name": "Potatoes (Floury)",
+				"quantity": { "type": "grams", "amount": 600 }
+			},
+			{
+				"name": "Butter",
+				"quantity": { "type": "grams", "amount": 20 },
+				"pantry": true
+			},
+			{
+				"name": "Egg",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			}
+		]
 	},
 	{
 		"id": 6,
@@ -52,12 +121,94 @@
 	{
 		"id": 10,
 		"name": "Apple and onion galette with fresh goat cheese",
-		"recipeUrl": "https://www.hellofresh.de/recipes/apfel-zwiebel-galette-mit-ziegenfrischkase-5f6d95caac48e31755327774"
+		"recipeUrl": "https://www.hellofresh.de/recipes/apfel-zwiebel-galette-mit-ziegenfrischkase-5f6d95caac48e31755327774",
+		"ingredients": [
+			{
+				"name": "Quiche Pastry",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Apple",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{
+				"name": "Goats Cheese",
+				"quantity": { "type": "grams", "amount": 100 }
+			},
+			{
+				"name": "Sour Cream (Schmand)",
+				"quantity": { "type": "grams", "amount": 75 }
+			},
+			{ "name": "Thyme", "quantity": { "type": "grams", "amount": 10 } },
+			{
+				"name": "Red Onion",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			}
+		]
 	},
 	{
 		"id": 11,
 		"name": "Vegan peanut curry with coconut rice",
-		"recipeUrl": "https://www.hellofresh.de/recipes/veganes-erdnusscurry-mit-kokosreis-5f7d89c48220af61bc7d74fd"
+		"recipeUrl": "https://www.hellofresh.de/recipes/veganes-erdnusscurry-mit-kokosreis-5f7d89c48220af61bc7d74fd",
+		"ingredients": [
+			{
+				"name": "Coconut Milk",
+				"quantity": { "type": "millilitres", "amount": 250 }
+			},
+			{
+				"name": "Yellow Curry Paste",
+				"quantity": { "type": "grams", "amount": 25 }
+			},
+			{
+				"name": "Courgette",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Spring Onion",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Vegetable broth",
+				"quantity": { "type": "grams", "amount": 4 },
+				"pantry": true
+			},
+			{ "name": "Lime", "quantity": { "type": "individual", "amount": 1 } },
+			{
+				"name": "Chilli Pepper",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Peanut Butter",
+				"quantity": { "type": "grams", "amount": 25 },
+				"pantry": true
+			},
+			{
+				"name": "Jasmine Rice",
+				"quantity": { "type": "grams", "amount": 150 },
+				"pantry": true
+			},
+			{
+				"name": "Coconut Flakes",
+				"quantity": { "type": "grams", "amount": 4 },
+				"pantry": true
+			},
+			{
+				"name": "Runner Beans",
+				"quantity": { "type": "grams", "amount": 100 }
+			},
+			{
+				"name": "Bell Pepper",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{ "name": "Peanuts", "quantity": { "type": "grams", "amount": 10 } },
+			{
+				"name": "Garlic clove",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			}
+		]
 	},
 	{
 		"id": 12,
@@ -143,7 +294,35 @@
 	{
 		"id": 16,
 		"name": "Meatballs filled with mozzarella",
-		"recipeUrl": "https://www.hellofresh.de/recipes/hackballchen-gefullt-mit-mozzarella-5f8fffc1d267cf37466082aa"
+		"recipeUrl": "https://www.hellofresh.de/recipes/hackballchen-gefullt-mit-mozzarella-5f8fffc1d267cf37466082aa",
+		"ingredients": [
+			{ "name": "Carrot", "quantity": { "type": "individual", "amount": 2 } },
+			{ "name": "Bacon", "quantity": { "type": "individual", "amount": 1 } },
+			{ "name": "Leek", "quantity": { "type": "individual", "amount": 1 } },
+			{
+				"name": "Mozzarella",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Mustard",
+				"quantity": { "type": "grams", "amount": 10 },
+				"pantry": true
+			},
+			{
+				"name": "Potatoes (Drillinge)",
+				"quantity": { "type": "grams", "amount": 400 }
+			},
+			{
+				"name": "Beef Stock",
+				"quantity": { "type": "grams", "amount": 4 },
+				"pantry": true
+			},
+			{ "name": "Mixed Mince", "quantity": { "type": "grams", "amount": 300 } },
+			{
+				"name": "Cooking Cream",
+				"quantity": { "type": "millilitres", "amount": 200 }
+			}
+		]
 	},
 	{
 		"id": 17,
@@ -153,7 +332,54 @@
 	{
 		"id": 18,
 		"name": "Hake in coconut panko with curry rice",
-		"recipeUrl": "https://www.hellofresh.de/recipes/seehecht-in-kokos-panko-mit-curryreis-5f8045d06781da426e0c72f9"
+		"recipeUrl": "https://www.hellofresh.de/recipes/seehecht-in-kokos-panko-mit-curryreis-5f8045d06781da426e0c72f9",
+		"ingredients": [
+			{ "name": "Cod", "quantity": { "type": "grams", "amount": 250 } },
+			{
+				"name": "Corn Starch",
+				"quantity": { "type": "grams", "amount": 6 },
+				"pantry": true
+			},
+			{
+				"name": "Coconut Flakes",
+				"quantity": { "type": "grams", "amount": 8 },
+				"pantry": true
+			},
+			{
+				"name": "Spices! (Curry?)",
+				"quantity": { "type": "grams", "amount": 2 },
+				"pantry": true
+			},
+			{
+				"name": "Panko Breadcrumbs",
+				"quantity": { "type": "grams", "amount": 25 },
+				"pantry": true
+			},
+			{
+				"name": "Spring Onion",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{ "name": "Joghurt", "quantity": { "type": "grams", "amount": 75 } },
+			{ "name": "Lime", "quantity": { "type": "individual", "amount": 1 } },
+			{
+				"name": "Garlic Clove",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{
+				"name": "Jasmine Rice",
+				"quantity": { "type": "grams", "amount": 150 },
+				"pantry": true
+			},
+			{
+				"name": "Courgette",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Chilli Pepper",
+				"quantity": { "type": "individual", "amount": 1 }
+			}
+		]
 	},
 	{
 		"id": 19,
@@ -163,7 +389,40 @@
 	{
 		"id": 20,
 		"name": "Pork fillet with spicy apricot sauce",
-		"recipeUrl": "https://www.hellofresh.de/recipes/schweinefilet-mit-wurziger-aprikosensosze-5f6d95b292de38729f0583f3"
+		"recipeUrl": "https://www.hellofresh.de/recipes/schweinefilet-mit-wurziger-aprikosensosze-5f6d95b292de38729f0583f3",
+		"ingredients": [
+			{ "name": "Pork Fillet", "quantity": { "type": "grams", "amount": 250 } },
+			{
+				"name": "Potatoes (Floury)",
+				"quantity": { "type": "grams", "amount": 500 }
+			},
+			{
+				"name": "Apricot Chutney",
+				"quantity": { "type": "grams", "amount": 50 },
+				"pantry": true
+			},
+			{
+				"name": "Shallot",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{
+				"name": "Chicken Broth",
+				"quantity": { "type": "grams", "amount": 4 },
+				"pantry": true
+			},
+			{ "name": "Broccoli", "quantity": { "type": "individual", "amount": 1 } },
+			{
+				"name": "Almond Flakes",
+				"quantity": { "type": "grams", "amount": 10 },
+				"pantry": true
+			},
+			{
+				"name": "Butter",
+				"quantity": { "type": "grams", "amount": 20 },
+				"pantry": true
+			}
+		]
 	},
 	{
 		"id": 21,
@@ -252,6 +511,119 @@
 					"type": "individual",
 					"amount": 2
 				}
+			}
+		]
+	},
+	{
+		"id": 22,
+		"name": "Kiwi halloumi burger with yogurt aioli",
+		"recipeUrl": "https://www.hellofresh.de/recipes/kiwi-halloumi-burger-mit-joghurt-aioli-5f8045e7f62367537e0082d2",
+		"ingredients": [
+			{ "name": "Halloumi", "quantity": { "type": "grams", "amount": 200 } },
+			{ "name": "Kiwi", "quantity": { "type": "individual", "amount": 1 } },
+			{ "name": "Tomato", "quantity": { "type": "individual", "amount": 1 } },
+			{ "name": "Cucumber", "quantity": { "type": "individual", "amount": 1 } },
+			{
+				"name": "Romaine Lettuce",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{
+				"name": "Brioche Bun",
+				"quantity": { "type": "individual", "amount": 2 }
+			},
+			{
+				"name": "Potatoes (Floury)",
+				"quantity": { "type": "grams", "amount": 400 }
+			},
+			{
+				"name": "Spices! (Paprika?)",
+				"quantity": { "type": "grams", "amount": 2 },
+				"pantry": true
+			},
+			{ "name": "Joghurt", "quantity": { "type": "grams", "amount": 100 } },
+			{
+				"name": "Garlic Clove",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{
+				"name": "Mayonaise (Optional)",
+				"quantity": { "type": "millilitres", "amount": 35 }
+			}
+		]
+	},
+	{
+		"id": 23,
+		"name": "Harissa Chicken Breast with Aubergine",
+		"recipeUrl": "",
+		"ingredients": [
+			{
+				"name": "Chicken Breast",
+				"quantity": { "type": "grams", "amount": 250 }
+			},
+			{
+				"name": "Onion",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{ "name": "Tomato Pesto", "quantity": { "type": "grams", "amount": 50 } },
+			{
+				"name": "Quinoa",
+				"quantity": { "type": "grams", "amount": 100 },
+				"pantry": true
+			},
+			{
+				"name": "Spices! (Harissa)",
+				"quantity": { "type": "grams", "amount": 4 },
+				"pantry": true
+			},
+			{
+				"name": "Garlic Clove",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
+			},
+			{
+				"name": "Vegetable Stock",
+				"quantity": { "type": "grams", "amount": 4 },
+				"pantry": true
+			},
+			{
+				"name": "Aubergine",
+				"quantity": { "type": "individual", "amount": 1 }
+			},
+			{ "name": "Mint", "quantity": { "type": "grams", "amount": 10 } },
+			{ "name": "Parsley", "quantity": { "type": "grams", "amount": 10 } },
+			{ "name": "Joghurt", "quantity": { "type": "grams", "amount": 100 } }
+		]
+	},
+	{
+		"id": 24,
+		"name": "Creamy Mushroom Risotto with Bacon",
+		"recipeUrl": "",
+		"ingredients": [
+			{
+				"name": "Risotto Rice",
+				"quantity": { "type": "grams", "amount": 200 },
+				"pantry": true
+			},
+			{ "name": "Mushrooms", "quantity": { "type": "grams", "amount": 150 } },
+			{ "name": "Pear", "quantity": { "type": "individual", "amount": 1 } },
+			{ "name": "Chives", "quantity": { "type": "grams", "amount": 10 } },
+			{
+				"name": "Parmesan",
+				"quantity": { "type": "grams", "amount": 40 },
+				"pantry": true
+			},
+			{ "name": "Bacon", "quantity": { "type": "individual", "amount": 1 } },
+			{
+				"name": "Walnuts",
+				"quantity": { "type": "grams", "amount": 20 },
+				"pantry": true
+			},
+			{
+				"name": "Garlic Clove",
+				"quantity": { "type": "individual", "amount": 1 },
+				"pantry": true
 			}
 		]
 	}
