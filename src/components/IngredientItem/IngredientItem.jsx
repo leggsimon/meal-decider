@@ -14,6 +14,12 @@ const Item = styled.li`
 		`}
 `;
 
+const Caption = styled.p`
+	font-size: 0.8em;
+	margin: 0;
+	padding-left: 30px;
+`;
+
 const separators = {
 	grams: 'g ',
 	millilitres: 'ml ',
@@ -22,8 +28,7 @@ const separators = {
 
 export default function IngredientItem({ item, defaultCompleted }) {
 	const [completed, setCompleted] = useState(false);
-	const { type, amount } = item.quantity;
-	const content = amount + separators[type] + item.name;
+	const content = item.amount + separators[item.quantityType] + item.name;
 
 	useEffect(() => {
 		setCompleted(defaultCompleted);
@@ -37,17 +42,25 @@ export default function IngredientItem({ item, defaultCompleted }) {
 			}}
 		>
 			{content}
+			{item.amounts.length > 1 && (
+				<Caption>{`For ${item.amounts.length} meals: (${item.amounts
+					.map((amount) => {
+						return amount + separators[item.quantityType].trimStart();
+					})
+					.join(', ')})`}</Caption>
+			)}
 		</Item>
 	);
 }
 
 IngredientItem.propTypes = {
 	item: PropTypes.shape({
+		id: PropTypes.number,
 		name: PropTypes.string,
-		quantity: PropTypes.shape({
-			amount: PropTypes.number,
-			type: PropTypes.oneOf(['grams', 'individual', 'millilitres']),
-		}),
+		amount: PropTypes.number,
+		quantityType: PropTypes.oneOf(['grams', 'individual', 'millilitres']),
+		amounts: PropTypes.arrayOf(PropTypes.number),
+		pantry: PropTypes.bool,
 	}),
 	defaultCompleted: PropTypes.bool,
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import recipes from './data/recipes.json';
+import recipes from './data/v2/recipes.json';
 import Ingredients from './components/Ingredients';
 
 function getRandomRecipes(numberOfResults, resultsFrom) {
@@ -35,7 +35,9 @@ function App() {
 							setDecisions(
 								getRandomRecipes(
 									3,
-									recipes.filter((r) => r.ingredients),
+									recipes.filter(
+										(r) => r.ingredients && r.ingredients.length > 0,
+									),
 								),
 							);
 						}}
