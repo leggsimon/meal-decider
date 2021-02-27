@@ -1,6 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import './IngredientItem.css';
+import styled, { css } from 'styled-components';
+
+const Item = styled.li`
+	cursor: pointer;
+	user-select: none;
+
+	${(props) =>
+		props.completed &&
+		css`
+			color: grey;
+			text-decoration: line-through;
+		`}
+`;
 
 const separators = {
 	grams: 'g ',
@@ -12,24 +24,20 @@ export default function IngredientItem({ item, defaultCompleted }) {
 	const [completed, setCompleted] = useState(false);
 	const { type, amount } = item.quantity;
 	const content = amount + separators[type] + item.name;
-	const classes = [
-		'ingredient-item',
-		completed ? 'ingredient-item--completed' : '',
-	].join(' ');
 
 	useEffect(() => {
 		setCompleted(defaultCompleted);
 	}, [item, defaultCompleted]);
 
 	return (
-		<li
-			className={classes}
+		<Item
+			completed={completed}
 			onClick={() => {
 				setCompleted((c) => !c);
 			}}
 		>
 			{content}
-		</li>
+		</Item>
 	);
 }
 
