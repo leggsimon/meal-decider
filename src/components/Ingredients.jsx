@@ -2,6 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import IngredientsList from './IngredientsList/IngredientsList';
 import ingredientsData from '../data/v2/ingredients.json';
+import SHOPPING_ORDER from '../data/v2/shopping-order.json';
+
+function orderList(list) {
+	return [...list].sort((a, b) => {
+		return (
+			(SHOPPING_ORDER.indexOf(a.type) || 99) -
+			(SHOPPING_ORDER.indexOf(b.type) || 99)
+		);
+	});
+}
 
 export default function Ingredients({ ingredients }) {
 	const combinedIngredients = ingredients.reduce((combined, ingredient) => {
@@ -36,7 +46,7 @@ export default function Ingredients({ ingredients }) {
 		<div>
 			<h2>Ingredients</h2>
 			<h3>Shopping List</h3>
-			<IngredientsList items={shoppingItems} />
+			<IngredientsList items={orderList(shoppingItems)} />
 
 			<h3>Check if you have</h3>
 			<IngredientsList items={pantryItems} defaultCompleted="true" />
