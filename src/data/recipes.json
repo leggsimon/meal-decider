@@ -668,7 +668,7 @@
 			{
 				"name": "Parsley",
 				"quantity": {
-					"type": "weight",
+					"type": "grams",
 					"amount": 10
 				}
 			},
