@@ -107,13 +107,7 @@ function App() {
 						</label>
 						<input type="submit" value="Add" />
 					</form>
-					<pre
-						onClick={() => {
-							copy(JSON.stringify(newIngredients, null, 2));
-						}}
-					>
-						{JSON.stringify(newIngredients, null, 2)}
-					</pre>
+					<pre>{JSON.stringify(newIngredients, null, 2)}</pre>
 					<button
 						onClick={() => {
 							navigator.clipboard.writeText(
