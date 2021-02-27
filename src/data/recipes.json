@@ -34,7 +34,7 @@
 				"pantry": true
 			},
 			{
-				"name": "Garlic Clve",
+				"name": "Garlic Clove",
 				"quantity": { "type": "individual", "amount": 1 },
 				"pantry": true
 			}
@@ -278,7 +278,7 @@
 				"quantity": { "type": "individual", "amount": 1 }
 			},
 			{
-				"name": "Vegetable broth",
+				"name": "Vegetable Stock",
 				"quantity": { "type": "grams", "amount": 4 },
 				"pantry": true
 			},
@@ -312,7 +312,7 @@
 			},
 			{ "name": "Peanuts", "quantity": { "type": "grams", "amount": 10 } },
 			{
-				"name": "Garlic clove",
+				"name": "Garlic Clove",
 				"quantity": { "type": "individual", "amount": 1 },
 				"pantry": true
 			}
@@ -446,13 +446,12 @@
 				"quantity": {
 					"type": "millilitres",
 					"amount": 250
-				},
-				"pantry": true
+				}
 			},
 			{
 				"name": "Cod",
 				"quantity": {
-					"type": "weight",
+					"type": "grams",
 					"amount": 250
 				}
 			}
@@ -574,7 +573,7 @@
 				"pantry": true
 			},
 			{
-				"name": "Chicken Broth",
+				"name": "Chicken Stock",
 				"quantity": { "type": "grams", "amount": 4 },
 				"pantry": true
 			},
@@ -627,7 +626,7 @@
 				}
 			},
 			{
-				"name": "Tomato Paste",
+				"name": "Tomato Puree",
 				"quantity": {
 					"type": "millilitres",
 					"amount": 35
@@ -639,7 +638,8 @@
 				"quantity": {
 					"type": "individual",
 					"amount": 1
-				}
+				},
+				"pantry": true
 			},
 			{
 				"name": "Vegetable Stock",
@@ -673,11 +673,12 @@
 				}
 			},
 			{
-				"name": "spices!",
+				"name": "Spices! (Paprika?)",
 				"quantity": {
-					"type": "individual",
+					"type": "grams",
 					"amount": 2
-				}
+				},
+				"pantry": true
 			}
 		]
 	},
