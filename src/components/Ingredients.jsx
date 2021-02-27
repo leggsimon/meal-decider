@@ -49,7 +49,7 @@ export default function Ingredients({ ingredients }) {
 			<IngredientsList items={orderList(shoppingItems)} />
 
 			<h3>Check if you have</h3>
-			<IngredientsList items={pantryItems} defaultCompleted="true" />
+			<IngredientsList items={pantryItems} defaultCompleted={true} />
 		</div>
 	);
 }
