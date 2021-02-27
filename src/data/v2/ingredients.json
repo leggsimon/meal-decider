@@ -3,516 +3,602 @@
 		"id": 1,
 		"name": "Almond Flakes",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "nuts/seeds"
 	},
 	{
 		"id": 2,
 		"name": "Apple",
 		"quantityType": "individual",
-		"pantry": true
+		"pantry": true,
+		"type": "fruit"
 	},
 	{
 		"id": 3,
 		"name": "Apricot Chutney",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "sauces"
 	},
 	{
 		"id": 4,
 		"name": "Aubergine",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 5,
 		"name": "Bacon",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "meats"
 	},
 	{
 		"id": 6,
 		"name": "Baking Powder",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "baking"
 	},
 	{
 		"id": 7,
 		"name": "Balsamic Créme",
 		"quantityType": "millilitres",
-		"pantry": true
+		"pantry": true,
+		"type": "sauces"
 	},
 	{
 		"id": 8,
 		"name": "Banana",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "fruit"
 	},
 	{
 		"id": 9,
 		"name": "Beef Stock",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "stocks"
 	},
 	{
 		"id": 10,
 		"name": "Bell Pepper",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 11,
 		"name": "Black Beans",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "other"
 	},
 	{
 		"id": 12,
 		"name": "Blue Cheese",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "cheeses"
 	},
 	{
 		"id": 13,
 		"name": "Breadcrumbs",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "baking"
 	},
 	{
 		"id": 14,
 		"name": "Brioche Bun",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "bread"
 	},
 	{
 		"id": 15,
 		"name": "Broccoli",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 16,
 		"name": "Butter",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "butter"
 	},
 	{
 		"id": 17,
 		"name": "Carrot",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 18,
 		"name": "Chicken Breast",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "meats"
 	},
 	{
 		"id": 19,
 		"name": "Chicken Stock",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "stocks"
 	},
 	{
 		"id": 20,
 		"name": "Chilli Pepper",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 21,
 		"name": "Chives",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "herbs"
 	},
 	{
 		"id": 22,
 		"name": "Coconut Flakes",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "baking"
 	},
 	{
 		"id": 23,
 		"name": "Coconut Milk",
 		"quantityType": "millilitres",
-		"pantry": false
+		"pantry": false,
+		"type": "sauces"
 	},
 	{
 		"id": 24,
 		"name": "Cod",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "fish"
 	},
 	{
 		"id": 25,
 		"name": "Cooking Cream",
 		"quantityType": "millilitres",
-		"pantry": false
+		"pantry": false,
+		"type": "dairy"
 	},
 	{
 		"id": 26,
 		"name": "Corn Starch",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "baking"
 	},
 	{
 		"id": 27,
 		"name": "Courgette",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 28,
 		"name": "Cucumber",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 29,
 		"name": "Egg",
 		"quantityType": "individual",
-		"pantry": true
+		"pantry": true,
+		"type": "eggs"
 	},
 	{
 		"id": 30,
 		"name": "Garlic Clove",
 		"quantityType": "individual",
-		"pantry": true
+		"pantry": true,
+		"type": "veg"
 	},
 	{
 		"id": 31,
 		"name": "Goats Cheese",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "cheeses"
 	},
 	{
 		"id": 32,
 		"name": "Halloumi",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "cheeses"
 	},
 	{
 		"id": 33,
 		"name": "Honey",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "spreads"
 	},
 	{
 		"id": 34,
 		"name": "Jasmine Rice",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "pastas/rices"
 	},
 	{
 		"id": 35,
 		"name": "Joghurt",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "dairy"
 	},
 	{
 		"id": 36,
 		"name": "Kiwi",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "fruit"
 	},
 	{
 		"id": 37,
 		"name": "Leek",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 38,
 		"name": "Lime",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "fruit"
 	},
 	{
 		"id": 39,
 		"name": "Mayonaise (Optional)",
 		"quantityType": "millilitres",
-		"pantry": false
+		"pantry": false,
+		"type": "sauces"
 	},
 	{
 		"id": 40,
 		"name": "Milk",
 		"quantityType": "millilitres",
-		"pantry": true
+		"pantry": true,
+		"type": "dairy"
 	},
 	{
 		"id": 41,
 		"name": "Mint",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "herbs"
 	},
 	{
 		"id": 42,
 		"name": "Mixed Mince",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "meats"
 	},
 	{
 		"id": 43,
 		"name": "Mozzarella",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "cheeses"
 	},
 	{
 		"id": 44,
 		"name": "Mushrooms",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 45,
 		"name": "Mustard",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "sauces"
 	},
 	{
 		"id": 46,
 		"name": "Onion",
 		"quantityType": "individual",
-		"pantry": true
+		"pantry": true,
+		"type": "veg"
 	},
 	{
 		"id": 47,
 		"name": "Pak Choi",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 48,
 		"name": "Pancetta",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "meats"
 	},
 	{
 		"id": 49,
 		"name": "Panko Breadcrumbs",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "baking"
 	},
 	{
 		"id": 50,
 		"name": "Parmesan",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "cheeses"
 	},
 	{
 		"id": 51,
 		"name": "Parsley",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "herbs"
 	},
 	{
 		"id": 52,
 		"name": "Peanut Butter",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "spreads"
 	},
 	{
 		"id": 53,
 		"name": "Peanuts",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "nuts/seeds"
 	},
 	{
 		"id": 54,
 		"name": "Pear",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "fruit"
 	},
 	{
 		"id": 55,
 		"name": "Plain Flour",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "baking"
 	},
 	{
 		"id": 56,
 		"name": "Pork Fillet",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "meats"
 	},
 	{
 		"id": 57,
 		"name": "Potatoes (Drillinge)",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 58,
 		"name": "Potatoes (Floury)",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 59,
 		"name": "Quiche Pastry",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "pastry"
 	},
 	{
 		"id": 60,
 		"name": "Quinoa",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "pastas/rices"
 	},
 	{
 		"id": 61,
 		"name": "Red Onion",
 		"quantityType": "individual",
-		"pantry": true
+		"pantry": true,
+		"type": "veg"
 	},
 	{
 		"id": 62,
 		"name": "Red Pointed Pepper",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 63,
 		"name": "Red Wine Vinegar",
 		"quantityType": "millilitres",
-		"pantry": true
+		"pantry": true,
+		"type": "sauces"
 	},
 	{
 		"id": 64,
 		"name": "Risotto Rice",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "pastas/rices"
 	},
 	{
 		"id": 65,
 		"name": "Romaine Lettuce",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 66,
 		"name": "Rosemary",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "herbs"
 	},
 	{
 		"id": 67,
 		"name": "Runner Beans",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 68,
 		"name": "Sesame Seeds",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "nuts/seeds"
 	},
 	{
 		"id": 69,
 		"name": "Shallot",
 		"quantityType": "individual",
-		"pantry": true
+		"pantry": true,
+		"type": "veg"
 	},
 	{
 		"id": 70,
 		"name": "Sour Cream (Schmand)",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "dairy"
 	},
 	{
 		"id": 71,
 		"name": "Soy Sauce",
 		"quantityType": "millilitres",
-		"pantry": true
+		"pantry": true,
+		"type": "sauces"
 	},
 	{
 		"id": 72,
 		"name": "Spices! (Curry?)",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "spices"
 	},
 	{
 		"id": 73,
 		"name": "Spices! (Harissa)",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "spices"
 	},
 	{
 		"id": 74,
 		"name": "Spices! (Paprika?)",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "spices"
 	},
 	{
 		"id": 75,
 		"name": "Spices! (nutmeg?)",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "spices"
 	},
 	{
 		"id": 76,
 		"name": "Spring Onion",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 77,
 		"name": "Sweet Potato",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 78,
 		"name": "Thyme",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "herbs"
 	},
 	{
 		"id": 79,
 		"name": "Tikka Masala Paste",
 		"quantityType": "individual",
-		"pantry": true
+		"pantry": true,
+		"type": "sauces"
 	},
 	{
 		"id": 80,
 		"name": "Tomato",
 		"quantityType": "individual",
-		"pantry": false
+		"pantry": false,
+		"type": "veg"
 	},
 	{
 		"id": 81,
 		"name": "Tomato Ketchup",
 		"quantityType": "millilitres",
-		"pantry": true
+		"pantry": true,
+		"type": "sauces"
 	},
 	{
 		"id": 82,
 		"name": "Tomato Pesto",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "pastas/rices"
 	},
 	{
 		"id": 83,
 		"name": "Tomato Puree",
 		"quantityType": "millilitres",
-		"pantry": true
+		"pantry": true,
+		"type": "pastas/rices"
 	},
 	{
 		"id": 84,
 		"name": "Vegetable Stock",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "stocks"
 	},
 	{
 		"id": 85,
 		"name": "Walnuts",
 		"quantityType": "grams",
-		"pantry": true
+		"pantry": true,
+		"type": "nuts/seeds"
 	},
 	{
 		"id": 86,
 		"name": "Yellow Curry Paste",
 		"quantityType": "grams",
-		"pantry": false
+		"pantry": false,
+		"type": "sauces"
 	}
 ]
