@@ -58,11 +58,13 @@ export default function Home() {
 					})}
 				</ul>
 			</output>
-			<Ingredients
-				ingredients={decisions
-					.map((decision) => decision.ingredients || [])
-					.flat()}
-			/>
+			{decisions.length > 0 && (
+				<Ingredients
+					ingredients={decisions
+						.map((decision) => decision.ingredients || [])
+						.flat()}
+				/>
+			)}
 		</Main>
 	);
 }
