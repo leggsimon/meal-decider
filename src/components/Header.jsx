@@ -12,8 +12,6 @@ const StyledHeader = styled.header`
 	align-items: center;
 	padding: 15px 0;
 	box-shadow: 0px 5px 10px #999;
-	font-variant: all-petite-caps;
-	letter-spacing: -2px;
 `;
 const List = styled.ul`
 	list-style: none;
@@ -56,6 +54,7 @@ const ListItem = styled.li`
 	font-weight: 200;
 `;
 const Heading = styled.h1`
+	font-family: 'Pacifico', cursive;
 	margin: 0;
 `;
 
