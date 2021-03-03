@@ -684,5 +684,33 @@
 		"quantityType": "grams",
 		"type": "spices",
 		"pantry": false
+	},
+	{
+		"id": 99,
+		"name": "Venison Steak",
+		"quantityType": "grams",
+		"type": "meats",
+		"pantry": false
+	},
+	{
+		"id": 100,
+		"name": "Demi-Glace",
+		"quantityType": "millilitres",
+		"type": "sauces",
+		"pantry": false
+	},
+	{
+		"id": 101,
+		"name": "Cranberry Jam",
+		"quantityType": "grams",
+		"type": "spreads",
+		"pantry": false
+	},
+	{
+		"id": 102,
+		"name": "Savoy Cabbage",
+		"quantityType": "individual",
+		"type": "veg",
+		"pantry": false
 	}
 ]

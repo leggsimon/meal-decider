@@ -50,7 +50,48 @@
 		"id": 2,
 		"name": "Fried venison steak with onion sauce",
 		"recipeUrl": "https://www.hellofresh.de/recipes/gebratenes-hirschsteak-mit-zwiebelsosze-5fa27cd34afcda73f967640e",
-		"ingredients": []
+		"ingredients": [
+			{
+				"ingredientId": 99,
+				"amount": 250
+			},
+			{
+				"ingredientId": 61,
+				"amount": 1
+			},
+			{
+				"ingredientId": 51,
+				"amount": 10
+			},
+			{
+				"ingredientId": 66,
+				"amount": 10
+			},
+			{
+				"ingredientId": 100,
+				"amount": 200
+			},
+			{
+				"ingredientId": 101,
+				"amount": 25
+			},
+			{
+				"ingredientId": 57,
+				"amount": 400
+			},
+			{
+				"ingredientId": 69,
+				"amount": 1
+			},
+			{
+				"ingredientId": 30,
+				"amount": 1
+			},
+			{
+				"ingredientId": 102,
+				"amount": 1
+			}
+		]
 	},
 	{
 		"id": 3,
