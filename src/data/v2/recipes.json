@@ -107,7 +107,68 @@
 		"id": 4,
 		"name": "Enchiladas with spicy tomato sauce",
 		"recipeUrl": "https://www.hellofresh.de/recipes/enchiladas-mit-scharfer-tomatensosze-5fab9c71392eeb7bdf3f68fa",
-		"ingredients": []
+		"ingredients": [
+			{
+				"ingredientId": 95,
+				"amount": 4
+			},
+			{
+				"ingredientId": 11,
+				"amount": 400
+			},
+			{
+				"ingredientId": 96,
+				"amount": 50
+			},
+			{
+				"ingredientId": 44,
+				"amount": 100
+			},
+			{
+				"ingredientId": 10,
+				"amount": 1
+			},
+			{
+				"ingredientId": 83,
+				"amount": 70
+			},
+			{
+				"ingredientId": 97,
+				"amount": 2
+			},
+			{
+				"ingredientId": 38,
+				"amount": 1
+			},
+			{
+				"ingredientId": 70,
+				"amount": 150
+			},
+			{
+				"ingredientId": 76,
+				"amount": 1
+			},
+			{
+				"ingredientId": 20,
+				"amount": 1
+			},
+			{
+				"ingredientId": 80,
+				"amount": 2
+			},
+			{
+				"ingredientId": 30,
+				"amount": 1
+			},
+			{
+				"ingredientId": 16,
+				"amount": 10
+			},
+			{
+				"ingredientId": 84,
+				"amount": 4
+			}
+		]
 	},
 	{
 		"id": 5,

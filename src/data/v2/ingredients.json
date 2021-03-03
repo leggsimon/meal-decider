@@ -656,5 +656,26 @@
 		"quantityType": "grams",
 		"type": "dairy",
 		"pantry": false
+	},
+	{
+		"id": 95,
+		"name": "Tortillas",
+		"quantityType": "individual",
+		"type": "bread",
+		"pantry": false
+	},
+	{
+		"id": 96,
+		"name": "Cheddar",
+		"quantityType": "grams",
+		"type": "cheeses",
+		"pantry": false
+	},
+	{
+		"id": 97,
+		"name": "Spices! (Hello Fiesta?)",
+		"quantityType": "grams",
+		"type": "spices",
+		"pantry": true
 	}
 ]
