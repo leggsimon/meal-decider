@@ -600,5 +600,33 @@
 		"quantityType": "grams",
 		"pantry": false,
 		"type": "sauces"
+	},
+	{
+		"id": 87,
+		"name": "Feta Cheese (Hirtenkäse)",
+		"quantityType": "grams",
+		"type": "cheeses",
+		"pantry": false
+	},
+	{
+		"id": 88,
+		"name": "Cous Cous",
+		"quantityType": "grams",
+		"type": "pastas/rices",
+		"pantry": true
+	},
+	{
+		"id": 89,
+		"name": "Spices! (Dukkah?)",
+		"quantityType": "grams",
+		"type": "spices",
+		"pantry": true
+	},
+	{
+		"id": 90,
+		"name": "Lemon",
+		"quantityType": "individual",
+		"type": "fruit",
+		"pantry": false
 	}
 ]

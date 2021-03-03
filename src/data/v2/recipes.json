@@ -782,7 +782,68 @@
 		"id": 25,
 		"name": "Couscous with dukkah oven vegetables",
 		"recipeUrl": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-ofengemuse-5fbe263247e12018943a7900",
-		"ingredients": []
+		"ingredients": [
+			{
+				"ingredientId": 10,
+				"amount": 1
+			},
+			{
+				"ingredientId": 27,
+				"amount": 1
+			},
+			{
+				"ingredientId": 17,
+				"amount": 2
+			},
+			{
+				"ingredientId": 80,
+				"amount": 2
+			},
+			{
+				"ingredientId": 35,
+				"amount": 100
+			},
+			{
+				"ingredientId": 30,
+				"amount": 1
+			},
+			{
+				"ingredientId": 87,
+				"amount": 100
+			},
+			{
+				"ingredientId": 88,
+				"amount": 150
+			},
+			{
+				"ingredientId": 89,
+				"amount": 2
+			},
+			{
+				"ingredientId": 61,
+				"amount": 1
+			},
+			{
+				"ingredientId": 90,
+				"amount": 1
+			},
+			{
+				"ingredientId": 84,
+				"amount": 4
+			},
+			{
+				"ingredientId": 41,
+				"amount": 10
+			},
+			{
+				"ingredientId": 51,
+				"amount": 10
+			},
+			{
+				"ingredientId": 76,
+				"amount": 1
+			}
+		]
 	},
 	{
 		"id": 26,

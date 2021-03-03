@@ -23,7 +23,7 @@ const Copyable = ({ data }) => {
 			<pre>{JSON.stringify(data, null, 2)}</pre>
 			<button
 				onClick={() => {
-					navigator.clipboard.writeText(JSON.stringify(data));
+					navigator.clipboard.writeText(JSON.stringify(data, null, 2));
 				}}
 			>
 				Copy
