@@ -1,9 +1,15 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+export const ListContainer = styled.div`
+	border-radius: 10px;
+	margin: 20px 0;
+	background-color: white;
+	overflow: hidden;
+`;
 
 export const UnorderedList = styled.ul`
 	margin: 0;
 	padding: 0;
-	background-color: white;
 	color: black;
 	list-style: none;
 `;
@@ -15,3 +21,54 @@ export const ListItem = styled.li`
 		border-top: 1px solid #e9f1f7;
 	}
 `;
+
+const ListTitleContainer = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	background-color: #19323c;
+	color: white;
+	border-radius: 10px 10px 0 0;
+`;
+const ListTitleText = styled.h2`
+	font-size: 20px;
+	font-weight: 400;
+`;
+
+export const ListTitle = styled.h2`
+	height: 40px;
+	color: white;
+	font-weight: 400;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	transition: border-radius 5s ease;
+	background-color: #f5b841;
+	font-size: 16px;
+
+	:first-child {
+		background-color: #19323c;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		font-size: 20px;
+	}
+
+	:last-child {
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+`;
+
+// export const SubHeading = ({ children }) => {
+// 	return (
+// 		<ListTitleContainer>
+// 			<ListTitleText>{children}</ListTitleText>
+// 		</ListTitleContainer>
+// 	);
+// };
+
+// SubHeading.propTypes = {
+// 	children: Proptypes.node,
+// };

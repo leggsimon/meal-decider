@@ -3,7 +3,12 @@ import recipes from '../data/v2/recipes.json';
 import Ingredients from '../components/Ingredients';
 import styled from 'styled-components';
 import { SubHeading } from '../components/SubHeading';
-import { UnorderedList, ListItem } from '../components/List';
+import {
+	UnorderedList,
+	ListItem,
+	ListContainer,
+	ListTitle,
+} from '../components/List';
 
 function getRandomRecipes(numberOfResults, resultsFrom) {
 	const set = new Set();
@@ -61,14 +66,15 @@ export default function Home() {
 				Decide!
 			</Button>
 			<Content>
-				<SubHeading>Meals</SubHeading>
-				<output>
+				<ListContainer>
+					<ListTitle>Meals</ListTitle>
+
 					<UnorderedList>
 						{decisions.map((decision) => {
 							return <ListItem key={decision.id}>{decision.name}</ListItem>;
 						})}
 					</UnorderedList>
-				</output>
+				</ListContainer>
 				{decisions.length > 0 && (
 					<Ingredients
 						ingredients={decisions

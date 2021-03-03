@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import IngredientsList from './IngredientsList/IngredientsList';
-import { SubHeading } from './SubHeading';
+import { SubHeading, SubHeadingContainer } from './SubHeading';
+import { ListContainer, ListTitle } from './List';
 import ingredientsData from '../data/v2/ingredients.json';
 import SHOPPING_ORDER from '../data/v2/shopping-order.json';
 
@@ -13,6 +15,11 @@ function orderList(list) {
 		);
 	});
 }
+
+// const SeparatorHeading = styled(SubHeadingContainer)`
+// 	border-radius: 0;
+// 	background-color: #f5b841;
+// `;
 
 export default function Ingredients({ ingredients }) {
 	const combinedIngredients = ingredients.reduce((combined, ingredient) => {
@@ -45,11 +52,13 @@ export default function Ingredients({ ingredients }) {
 
 	return (
 		<div>
-			<SubHeading>Ingredients</SubHeading>
-			<IngredientsList items={orderList(shoppingItems)} />
+			<ListContainer>
+				<ListTitle>Ingredients</ListTitle>
+				<IngredientsList items={orderList(shoppingItems)} />
 
-			<h3>Check if you have</h3>
-			<IngredientsList items={pantryItems} defaultCompleted={true} />
+				<ListTitle type="separator">Check if you have</ListTitle>
+				<IngredientsList items={pantryItems} defaultCompleted={true} />
+			</ListContainer>
 		</div>
 	);
 }

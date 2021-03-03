@@ -60,6 +60,10 @@ const Heading = styled.h1`
 	margin: 0;
 	font-size: 2em;
 	font-weight: normal;
+	height: 80px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
 `;
 
 const StyledLink = styled(Link)`
