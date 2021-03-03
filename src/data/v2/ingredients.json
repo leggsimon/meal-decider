@@ -754,5 +754,12 @@
 		"quantityType": "grams",
 		"type": "nuts/seeds",
 		"pantry": true
+	},
+	{
+		"id": 109,
+		"name": "Spaghetti",
+		"quantityType": "grams",
+		"type": "pastas/rices",
+		"pantry": true
 	}
 ]

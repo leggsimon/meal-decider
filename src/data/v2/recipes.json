@@ -892,7 +892,52 @@
 		"id": 19,
 		"name": "Linguine with blue cheese sauce",
 		"recipeUrl": "https://www.hellofresh.de/recipes/linguine-mit-blauschimmelkase-sosze-5f7d89eeba59155848207e14",
-		"ingredients": []
+		"ingredients": [
+			{
+				"ingredientId": 109,
+				"amount": 250
+			},
+			{
+				"ingredientId": 30,
+				"amount": 1
+			},
+			{
+				"ingredientId": 46,
+				"amount": 1
+			},
+			{
+				"ingredientId": 106,
+				"amount": 200
+			},
+			{
+				"ingredientId": 12,
+				"amount": 150
+			},
+			{
+				"ingredientId": 25,
+				"amount": 200
+			},
+			{
+				"ingredientId": 50,
+				"amount": 20
+			},
+			{
+				"ingredientId": 51,
+				"amount": 10
+			},
+			{
+				"ingredientId": 78,
+				"amount": 10
+			},
+			{
+				"ingredientId": 1,
+				"amount": 10
+			},
+			{
+				"ingredientId": 5,
+				"amount": 1
+			}
+		]
 	},
 	{
 		"id": 20,
