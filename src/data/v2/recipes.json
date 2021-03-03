@@ -502,7 +502,68 @@
 		"id": 14,
 		"name": "Sesame chicken with teriyaki stir fry",
 		"recipeUrl": "https://www.hellofresh.de/recipes/sesamhahnchen-mit-teriyaki-stir-fry-5f7d89e88220af61bc7d7501",
-		"ingredients": []
+		"ingredients": [
+			{
+				"ingredientId": 71,
+				"amount": 25
+			},
+			{
+				"ingredientId": 33,
+				"amount": 8
+			},
+			{
+				"ingredientId": 68,
+				"amount": 20
+			},
+			{
+				"ingredientId": 20,
+				"amount": 1
+			},
+			{
+				"ingredientId": 30,
+				"amount": 1
+			},
+			{
+				"ingredientId": 98,
+				"amount": 2
+			},
+			{
+				"ingredientId": 91,
+				"amount": 8
+			},
+			{
+				"ingredientId": 18,
+				"amount": 250
+			},
+			{
+				"ingredientId": 76,
+				"amount": 1
+			},
+			{
+				"ingredientId": 17,
+				"amount": 1
+			},
+			{
+				"ingredientId": 15,
+				"amount": 1
+			},
+			{
+				"ingredientId": 10,
+				"amount": 1
+			},
+			{
+				"ingredientId": 38,
+				"amount": 1
+			},
+			{
+				"ingredientId": 34,
+				"amount": 150
+			},
+			{
+				"ingredientId": 26,
+				"amount": 8
+			}
+		]
 	},
 	{
 		"id": 15,

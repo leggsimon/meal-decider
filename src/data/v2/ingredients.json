@@ -677,5 +677,12 @@
 		"quantityType": "grams",
 		"type": "spices",
 		"pantry": true
+	},
+	{
+		"id": 98,
+		"name": "Black Cumin",
+		"quantityType": "grams",
+		"type": "spices",
+		"pantry": false
 	}
 ]
