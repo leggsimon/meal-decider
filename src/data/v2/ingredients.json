@@ -628,5 +628,26 @@
 		"quantityType": "individual",
 		"type": "fruit",
 		"pantry": false
+	},
+	{
+		"id": 91,
+		"name": "Ginger",
+		"quantityType": "grams",
+		"type": "veg",
+		"pantry": true
+	},
+	{
+		"id": 92,
+		"name": "Siracha Sauce",
+		"quantityType": "millilitres",
+		"type": "sauces",
+		"pantry": true
+	},
+	{
+		"id": 93,
+		"name": "Mayonaise",
+		"quantityType": "millilitres",
+		"type": "sauces",
+		"pantry": false
 	}
 ]

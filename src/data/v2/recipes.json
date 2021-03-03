@@ -849,6 +849,59 @@
 		"id": 26,
 		"name": "Honey teriyaki burger",
 		"recipeUrl": "https://www.hellofresh.de/recipes/honig-teriyaki-burger-5fbe259190acc543b25bb6be",
-		"ingredients": []
+		"ingredients": [
+			{
+				"ingredientId": 14,
+				"amount": 2
+			},
+			{
+				"ingredientId": 42,
+				"amount": 300
+			},
+			{
+				"ingredientId": 91,
+				"amount": 15
+			},
+			{
+				"ingredientId": 33,
+				"amount": 20
+			},
+			{
+				"ingredientId": 30,
+				"amount": 1
+			},
+			{
+				"ingredientId": 71,
+				"amount": 25
+			},
+			{
+				"ingredientId": 92,
+				"amount": 8
+			},
+			{
+				"ingredientId": 93,
+				"amount": 35
+			},
+			{
+				"ingredientId": 38,
+				"amount": 1
+			},
+			{
+				"ingredientId": 17,
+				"amount": 1
+			},
+			{
+				"ingredientId": 65,
+				"amount": 1
+			},
+			{
+				"ingredientId": 58,
+				"amount": 400
+			},
+			{
+				"ingredientId": 68,
+				"amount": 10
+			}
+		]
 	}
 ]
