@@ -15,7 +15,7 @@ export const UnorderedList = styled.ul`
 `;
 export const ListItem = styled.li`
 	font-weight: 300;
-	padding: 8px 0 8px 40px;
+	padding: 8px 20px 8px 40px;
 
 	:not(:first-child) {
 		border-top: 1px solid #e9f1f7;
