@@ -6,12 +6,14 @@ import styled, { css } from 'styled-components';
 
 const StyledHeader = styled.header`
 	width: 100%;
-	background-color: #67dfe2;
+	/* background-color: #67dfe2; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 15px 0;
-	box-shadow: 0px 5px 10px #999;
+	justify-content: center;
+	height: 80px;
+	/* padding: 15px 0; */
+	/* box-shadow: 0px 5px 10px #999; */
 `;
 const List = styled.ul`
 	list-style: none;
@@ -56,6 +58,8 @@ const ListItem = styled.li`
 const Heading = styled.h1`
 	font-family: 'Pacifico', cursive;
 	margin: 0;
+	font-size: 2em;
+	font-weight: normal;
 `;
 
 const StyledLink = styled(Link)`

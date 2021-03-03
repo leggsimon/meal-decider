@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import IngredientsList from './IngredientsList/IngredientsList';
+import { SubHeading } from './SubHeading';
 import ingredientsData from '../data/v2/ingredients.json';
 import SHOPPING_ORDER from '../data/v2/shopping-order.json';
 
@@ -44,8 +45,7 @@ export default function Ingredients({ ingredients }) {
 
 	return (
 		<div>
-			<h2>Ingredients</h2>
-			<h3>Shopping List</h3>
+			<SubHeading>Ingredients</SubHeading>
 			<IngredientsList items={orderList(shoppingItems)} />
 
 			<h3>Check if you have</h3>

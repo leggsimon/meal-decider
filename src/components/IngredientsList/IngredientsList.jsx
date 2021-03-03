@@ -2,13 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import IngredientItem from '../IngredientItem/IngredientItem';
+import { UnorderedList } from '../List';
 
-const List = styled.ul`
-	list-style-type: none;
-`;
 export default function IngredientsList({ items, defaultCompleted }) {
 	return (
-		<List>
+		<UnorderedList>
 			{items.map((item) => {
 				return (
 					<IngredientItem
@@ -18,7 +16,7 @@ export default function IngredientsList({ items, defaultCompleted }) {
 					/>
 				);
 			})}
-		</List>
+		</UnorderedList>
 	);
 }
 

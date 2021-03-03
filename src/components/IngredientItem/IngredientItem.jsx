@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
+import { ListItem } from '../List';
 
 const separators = {
 	grams: 'g',
@@ -8,7 +9,7 @@ const separators = {
 	individual: '×',
 };
 
-const Item = styled.li`
+const Item = styled(ListItem)`
 	cursor: pointer;
 	user-select: none;
 
