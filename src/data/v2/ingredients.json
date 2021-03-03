@@ -712,5 +712,33 @@
 		"quantityType": "individual",
 		"type": "veg",
 		"pantry": false
+	},
+	{
+		"id": 103,
+		"name": "Plum Jam",
+		"quantityType": "grams",
+		"type": "spreads",
+		"pantry": false
+	},
+	{
+		"id": 104,
+		"name": "Ketjap Manis",
+		"quantityType": "millilitres",
+		"type": "sauces",
+		"pantry": false
+	},
+	{
+		"id": 105,
+		"name": "Dried Plums",
+		"quantityType": "grams",
+		"type": "nuts/seeds",
+		"pantry": false
+	},
+	{
+		"id": 106,
+		"name": "Broccolini",
+		"quantityType": "grams",
+		"type": "veg",
+		"pantry": false
 	}
 ]

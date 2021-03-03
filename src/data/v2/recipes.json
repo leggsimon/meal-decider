@@ -692,7 +692,52 @@
 		"id": 17,
 		"name": "Pork fillet in plum sauce",
 		"recipeUrl": "https://www.hellofresh.de/recipes/schweinefilet-in-pflaumensosze-5f7d89f355eb41083f7ce399",
-		"ingredients": []
+		"ingredients": [
+			{
+				"ingredientId": 56,
+				"amount": 250
+			},
+			{
+				"ingredientId": 76,
+				"amount": 1
+			},
+			{
+				"ingredientId": 81,
+				"amount": 35
+			},
+			{
+				"ingredientId": 84,
+				"amount": 4
+			},
+			{
+				"ingredientId": 30,
+				"amount": 1
+			},
+			{
+				"ingredientId": 46,
+				"amount": 1
+			},
+			{
+				"ingredientId": 103,
+				"amount": 60
+			},
+			{
+				"ingredientId": 104,
+				"amount": 50
+			},
+			{
+				"ingredientId": 105,
+				"amount": 40
+			},
+			{
+				"ingredientId": 106,
+				"amount": 200
+			},
+			{
+				"ingredientId": 34,
+				"amount": 150
+			}
+		]
 	},
 	{
 		"id": 18,
