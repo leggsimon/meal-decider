@@ -649,5 +649,12 @@
 		"quantityType": "millilitres",
 		"type": "sauces",
 		"pantry": false
+	},
+	{
+		"id": 94,
+		"name": "Crème Fraîche",
+		"quantityType": "grams",
+		"type": "dairy",
+		"pantry": false
 	}
 ]
