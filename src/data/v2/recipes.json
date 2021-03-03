@@ -423,7 +423,60 @@
 		"id": 9,
 		"name": "Chicken breast in fruity cranberry sauce",
 		"recipeUrl": "https://www.hellofresh.de/recipes/hahnchenbrust-in-cranberrysosze-5f8045b6eb4aa125ec3aaa18",
-		"ingredients": []
+		"ingredients": [
+			{
+				"ingredientId": 46,
+				"amount": 1
+			},
+			{
+				"ingredientId": 30,
+				"amount": 1
+			},
+			{
+				"ingredientId": 51,
+				"amount": 10
+			},
+			{
+				"ingredientId": 66,
+				"amount": 10
+			},
+			{
+				"ingredientId": 34,
+				"amount": 150
+			},
+			{
+				"ingredientId": 18,
+				"amount": 250
+			},
+			{
+				"ingredientId": 107,
+				"amount": 2
+			},
+			{
+				"ingredientId": 108,
+				"amount": 20
+			},
+			{
+				"ingredientId": 3,
+				"amount": 25
+			},
+			{
+				"ingredientId": 27,
+				"amount": 1
+			},
+			{
+				"ingredientId": 35,
+				"amount": 100
+			},
+			{
+				"ingredientId": 19,
+				"amount": 4
+			},
+			{
+				"ingredientId": 16,
+				"amount": 20
+			}
+		]
 	},
 	{
 		"id": 10,

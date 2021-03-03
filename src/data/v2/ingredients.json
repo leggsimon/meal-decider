@@ -747,5 +747,12 @@
 		"quantityType": "grams",
 		"type": "spices",
 		"pantry": true
+	},
+	{
+		"id": 108,
+		"name": "Dried Cranberries",
+		"quantityType": "grams",
+		"type": "nuts/seeds",
+		"pantry": true
 	}
 ]
