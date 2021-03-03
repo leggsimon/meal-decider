@@ -313,7 +313,48 @@
 		"id": 7,
 		"name": "Indian curry fish with spicy zucchini",
 		"recipeUrl": "https://www.hellofresh.de/recipes/indischer-curry-fisch-mit-scharfer-zucchini-5f6d95b7b4e0253fef0c0ccd",
-		"ingredients": []
+		"ingredients": [
+			{
+				"ingredientId": 77,
+				"amount": 1
+			},
+			{
+				"ingredientId": 17,
+				"amount": 3
+			},
+			{
+				"ingredientId": 24,
+				"amount": 250
+			},
+			{
+				"ingredientId": 107,
+				"amount": 2
+			},
+			{
+				"ingredientId": 30,
+				"amount": 1
+			},
+			{
+				"ingredientId": 90,
+				"amount": 1
+			},
+			{
+				"ingredientId": 27,
+				"amount": 1
+			},
+			{
+				"ingredientId": 20,
+				"amount": 1
+			},
+			{
+				"ingredientId": 35,
+				"amount": 100
+			},
+			{
+				"ingredientId": 76,
+				"amount": 1
+			}
+		]
 	},
 	{
 		"id": 8,

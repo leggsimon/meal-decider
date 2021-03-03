@@ -740,5 +740,12 @@
 		"quantityType": "grams",
 		"type": "veg",
 		"pantry": false
+	},
+	{
+		"id": 107,
+		"name": "Madras Curry Powder",
+		"quantityType": "grams",
+		"type": "spices",
+		"pantry": true
 	}
 ]
