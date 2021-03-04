@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import recipes from '../data/v2/recipes.json';
 import Ingredients from '../components/Ingredients';
 import styled from 'styled-components';
-import { SubHeading } from '../components/SubHeading';
 import {
 	UnorderedList,
 	ListItem,

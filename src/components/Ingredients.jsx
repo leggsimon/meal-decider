@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import IngredientsList from './IngredientsList/IngredientsList';
-import { SubHeading, SubHeadingContainer } from './SubHeading';
 import { ListContainer, ListTitle } from './List';
 import ingredientsData from '../data/v2/ingredients.json';
 import SHOPPING_ORDER from '../data/v2/shopping-order.json';
@@ -15,11 +14,6 @@ function orderList(list) {
 		);
 	});
 }
-
-// const SeparatorHeading = styled(SubHeadingContainer)`
-// 	border-radius: 0;
-// 	background-color: #f5b841;
-// `;
 
 export default function Ingredients({ ingredients }) {
 	const combinedIngredients = ingredients.reduce((combined, ingredient) => {

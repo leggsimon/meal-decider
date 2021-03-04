@@ -31,10 +31,6 @@ const ListTitleContainer = styled.div`
 	color: white;
 	border-radius: 10px 10px 0 0;
 `;
-const ListTitleText = styled.h2`
-	font-size: 20px;
-	font-weight: 400;
-`;
 
 export const ListTitle = styled.h2`
 	height: 40px;
@@ -60,15 +56,3 @@ export const ListTitle = styled.h2`
 		border-bottom-right-radius: 10px;
 	}
 `;
-
-// export const SubHeading = ({ children }) => {
-// 	return (
-// 		<ListTitleContainer>
-// 			<ListTitleText>{children}</ListTitleText>
-// 		</ListTitleContainer>
-// 	);
-// };
-
-// SubHeading.propTypes = {
-// 	children: Proptypes.node,
-// };
