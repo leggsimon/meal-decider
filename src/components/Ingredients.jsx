@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import IngredientsList from './IngredientsList/IngredientsList';
-import { ListContainer, ListTitle } from './List';
+import IngredientItem from './IngredientItem/IngredientItem';
+import { ListContainer, ListTitle, UnorderedList } from './List';
 import ingredientsData from '../data/v2/ingredients.json';
 import SHOPPING_ORDER from '../data/v2/shopping-order.json';
 
@@ -48,10 +47,24 @@ export default function Ingredients({ ingredients }) {
 		<div>
 			<ListContainer>
 				<ListTitle>Ingredients</ListTitle>
-				<IngredientsList items={orderList(shoppingItems)} />
+				<UnorderedList>
+					{orderList(shoppingItems).map((item) => {
+						return <IngredientItem key={item.id} item={item} />;
+					})}
+				</UnorderedList>
 
 				<ListTitle type="separator">Check if you have</ListTitle>
-				<IngredientsList items={pantryItems} defaultCompleted={true} />
+				<UnorderedList>
+					{pantryItems.map((item) => {
+						return (
+							<IngredientItem
+								key={item.id}
+								item={item}
+								defaultCompleted={true}
+							/>
+						);
+					})}
+				</UnorderedList>
 			</ListContainer>
 		</div>
 	);
