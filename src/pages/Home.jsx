@@ -26,7 +26,7 @@ const Main = styled.main`
 	flex-grow: 1;
 `;
 
-const Button = styled.button`
+const DecideButton = styled.button`
 	height: 35px;
 	background: #f5b841;
 	border-radius: 50px;
@@ -39,6 +39,16 @@ const Button = styled.button`
 	font-weight: 600;
 `;
 
+const CounterButton = styled.button`
+	flex-grow: 1;
+	height: 35px;
+	background: #19323c;
+	border-radius: 50px;
+	border: none;
+	margin: 0 20px;
+	color: white;
+`;
+
 const Content = styled.section`
 	margin-top: 20px;
 	background-color: #e9f1f7;
@@ -47,23 +57,53 @@ const Content = styled.section`
 	flex-grow: 1;
 `;
 
+const CounterWrapper = styled.div`
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0;
+`;
+
+const Counter = styled.span``;
+
 export default function Home() {
 	const [decisions, setDecisions] = useState([]);
+	const [numberOfDecicions, setNumberOfDecicions] = useState(3);
 
 	return (
 		<Main>
-			<Button
+			<CounterWrapper>
+				<CounterButton
+					onClick={() => {
+						setNumberOfDecicions(numberOfDecicions - 1);
+					}}
+					disabled={numberOfDecicions < 2}
+				>
+					-
+				</CounterButton>
+				<Counter>
+					{`${numberOfDecicions} ${numberOfDecicions > 1 ? 'meals' : 'meal'}`}
+				</Counter>
+				<CounterButton
+					onClick={() => {
+						setNumberOfDecicions(numberOfDecicions + 1);
+					}}
+				>
+					+
+				</CounterButton>
+			</CounterWrapper>
+			<DecideButton
 				onClick={() => {
 					setDecisions(
 						getRandomRecipes(
-							3,
+							numberOfDecicions,
 							recipes.filter((r) => r.ingredients && r.ingredients.length > 0),
 						),
 					);
 				}}
 			>
 				Decide!
-			</Button>
+			</DecideButton>
 			<Content>
 				<ListContainer>
 					<ListTitle>Meals</ListTitle>
