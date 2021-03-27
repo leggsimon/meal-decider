@@ -47,6 +47,10 @@ const CounterButton = styled.button`
 	border: none;
 	margin: 0 20px;
 	color: white;
+
+	&:disabled {
+		opacity: 0.7;
+	}
 `;
 
 const Content = styled.section`
@@ -70,6 +74,10 @@ export default function Home() {
 	const [decisions, setDecisions] = useState([]);
 	const [numberOfDecicions, setNumberOfDecicions] = useState(3);
 
+	const eligibleRecipes = recipes.filter(
+		(r) => r.ingredients && r.ingredients.length > 0,
+	);
+
 	return (
 		<Main>
 			<CounterWrapper>
@@ -88,18 +96,14 @@ export default function Home() {
 					onClick={() => {
 						setNumberOfDecicions(numberOfDecicions + 1);
 					}}
+					disabled={numberOfDecicions >= eligibleRecipes.length}
 				>
 					+
 				</CounterButton>
 			</CounterWrapper>
 			<DecideButton
 				onClick={() => {
-					setDecisions(
-						getRandomRecipes(
-							numberOfDecicions,
-							recipes.filter((r) => r.ingredients && r.ingredients.length > 0),
-						),
-					);
+					setDecisions(getRandomRecipes(numberOfDecicions, eligibleRecipes));
 				}}
 			>
 				Decide!
