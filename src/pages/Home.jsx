@@ -14,7 +14,7 @@ function getRandomRecipes(numberOfResults, resultsFrom) {
 	while (set.size < numberOfResults) {
 		let randomItem =
 			resultsFrom[Math.floor(Math.random() * resultsFrom.length)];
-		set.add(randomItem);
+		set.add(randomItem.id);
 	}
 	return Array.from(set);
 }
@@ -70,9 +70,21 @@ const CounterWrapper = styled.div`
 
 const Counter = styled.span``;
 
+const Summary = styled.summary`
+	align-self: center;
+`;
+const Details = styled.details`
+	align-self: center;
+	display: flex;
+`;
+
 export default function Home() {
 	const [decisions, setDecisions] = useState([]);
 	const [numberOfDecicions, setNumberOfDecicions] = useState(3);
+
+	const chosenRecipes = recipes.filter((r) => {
+		return decisions.includes(r.id);
+	});
 
 	const eligibleRecipes = recipes.filter(
 		(r) => r.ingredients && r.ingredients.length > 0,
@@ -108,19 +120,42 @@ export default function Home() {
 			>
 				Decide!
 			</DecideButton>
+			<Details>
+				<Summary>Pick from recipes</Summary>
+
+				<UnorderedList>
+					{recipes.map((recipe) => {
+						return (
+							<ListItem key={recipe.id}>
+								{recipe.name}
+								<button
+									onClick={(ev) => {
+										ev.preventDefault();
+										setDecisions((dec) => {
+											return [...dec, recipe.id];
+										});
+									}}
+								>
+									Pick
+								</button>
+							</ListItem>
+						);
+					})}
+				</UnorderedList>
+			</Details>
 			<Content>
 				<ListContainer>
 					<ListTitle>Meals</ListTitle>
 
 					<UnorderedList>
-						{decisions.map((decision) => {
+						{chosenRecipes.map((decision) => {
 							return <ListItem key={decision.id}>{decision.name}</ListItem>;
 						})}
 					</UnorderedList>
 				</ListContainer>
-				{decisions.length > 0 && (
+				{chosenRecipes.length > 0 && (
 					<Ingredients
-						ingredients={decisions
+						ingredients={chosenRecipes
 							.map((decision) => decision.ingredients || [])
 							.flat()}
 					/>
